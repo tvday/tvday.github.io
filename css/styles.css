@@ -33,7 +33,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: ##4A0000;
+  --bs-primary: #4A0000;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -11404,8 +11404,30 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 3rem;
+    height: 1px;
 }
+
+
+.dev-icon {
+    position: relative;
+    margin-bottom: 10px;
+}
+.dev-icon::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.dev-icon img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 5px;
+    border-style: solid;
+    border-color: #4A0000;
+}
+
 
 section.resume-section {
   display: flex;
