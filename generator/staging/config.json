@@ -1,0 +1,104 @@
+[
+  {
+    "url": "/",
+    "template": "index.html",
+    "context":  {
+      "name": "Thomas Day",
+      "icon": "",
+      "about": {
+        "firstName": "Thomas",
+        "lastName": "Day",
+        "resumeLink": "pages/Thomas_Day_resume.pdf",
+        "linkedInLink": "https://www.linkedin.com/in/thomas-v-day/",
+        "gitHubLink": "https://github.com/tvday"
+      },
+      "skills": [
+        {
+          "name": "Python",
+          "icon": "python.png"
+        },
+        {
+          "name": "C++",
+          "icon": "cpp.png"
+        },
+        {
+          "name": "C",
+          "icon": "c.png"
+        },
+        {
+          "name": "C#",
+          "icon": "c_sharp.png"
+        },
+        {
+          "name": "R and RStudio",
+          "icon": "r.png"
+        },
+        {
+          "name": "SQL Languages: MySQL, Oracle, Postgres",
+          "icon": "sql.png"
+        },
+        {
+          "name": "Git",
+          "icon": "git.png"
+        },
+        {
+          "name": "HTML",
+          "icon": "html.png"
+        },
+        {
+          "name": "CSS",
+          "icon": "css.png"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "javascript.png"
+        },
+        {
+          "name": "Bash",
+          "icon": "bash.png"
+        },
+        {
+          "name": "RegEx",
+          "icon": "regex.png"
+        },
+        {
+          "name": "Apache Spark",
+          "icon": "spark.png"
+        },
+        {
+          "name": "Pandas Python Library",
+          "icon": "pandas.png"
+        },
+        {
+          "name": "Unix-Like OS's",
+          "icon": "linux.png"
+        },
+        {
+          "name": "AWS",
+          "icon": "aws.png"
+        },
+        {
+          "name": "Excel and Microsoft Office Suite",
+          "icon": "excel.png"
+        },
+        {
+          "name": "React",
+          "icon": "react.png"
+        },
+        {
+          "name": "Unity",
+          "icon": "unity.png"
+        }
+      ],
+      "experience": [
+        {
+          "title": "Research Assistant",
+          "company": "Michigan Ross School of Business",
+          "content": "Worked with a marketing Ph.D. student under Professors Aradhna Krishna, S Sriram, and H. V. Jagadish to study effective brand use on social media. I used the Apache Spark library in Python and Twitter's API to analyze terabytes of Twitter data on a High Performance Computing cluster. I filtered tweets by text content using RegEx, content metrics, user data, and nested retweets’ data to retrieve the wanted tweets for the research. A large part of my role was reviewing brand awareness literature and peer reviewed papers in social media context to inform and direct research goals. My largest contribution was extracting and combining embedded retweets in order to form time series of user interaction metrics (likes, coments, retweets) since the Decahose dataset was a snapshot of tweets at creation."
+        }
+      ],
+      "education": {
+      }
+    }
+  }
+]

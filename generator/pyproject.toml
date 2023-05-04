@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "generator"
+version = "0.1.0"
+description = "Generator script for portfolio website."
+authors = ["tvday <tvday@umich.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jinja2 = "^3.1.2"
+click = "^8.1.3"
+ruamel-yaml = "^0.17.22"
+
+[tool.poetry.scripts]
+generator = 'generator.__main__:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
